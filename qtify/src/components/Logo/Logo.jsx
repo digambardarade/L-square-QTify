@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Logo.module.css";
-//import LogoImg from "../../assets/logo.png";
+import LogoImg from "../../assets/Logo.png";
 
 const Logo=()=>{
 
 return(
     <div className={styles.logoDiv}>
-        <img src={require("../../assets/logo.png")} width={67} alt="logo"/>
+        <img src={LogoImg} width={67} alt="logo"/>
     </div>
 )
 };
